@@ -1,0 +1,15 @@
+http://localhost:3000/escolas
+
+###
+
+POST http://localhost:3000/escolas HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Escola teste",
+    "city": "Cidade teste"
+}
+
+###
+
+GET http://localhost:3000/escolas/ HTTP/1.1
